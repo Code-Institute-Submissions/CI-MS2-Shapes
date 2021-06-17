@@ -1,59 +1,98 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Vilmantas Zaleckas
+## Code Institute Second Milestone Project 
+## **Shapes**- Memory Game
 
-Welcome USER_NAME,
+A simple memory game of shapes, a fun project created for Code Institutes Interactive Frontend Development Milestone Project.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
 
-## Gitpod Reminders
+## Index
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+- [Strategy](#strategy)
+- [Scope](#scope)
+- [User Stories](#user-stories)
+- [Structure](#structure)
+ - [Mobile](#mobile)
+ - [Tablet](#tablet)
+ - [Desktop](#desktop)
+- [Features](#features)
+- [Design](#design)
+- [Wireframes](#wireframes)
+- [Technologies Used](#technologies-used)
+- [Deployment](#deployment)
+- [Credits](#credits)
+- [Testing](#testing)
 
-`python3 -m http.server`
+## Strategy 
 
-A blue button should appear to click: _Make Public_,
+* Simple, one-page memory game website for training users memory.
+* Website for the user to spend their spare free time and have fun matching shapes.
+* Game of Shapes, uncovering and matching two pairs of Shapes, by removing cards from the table(screen).
+* Free game to visit, without any advertising or unnecessary information. It's just a game.
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Scope
 
-A blue button should appear to click: _Make Public_,
+Simple, distraction-free layout for a visual game of shapes, with few light pastel colours, to keep game experience light, distraction-free and not heavy on the eyes. 
+This is the game of shapes, it will mainly consist of symbols("Shapes")- user will play with shapes and symbols will be guiding the user through the game and page navigation, very little written words, with an exception for logo and game instructions, as well as pop up message at the end of the game to congratulate user for matching all shapes. 
+* Game will consist of one page and will include:
+  1. Header with game logo and navigation buttons.
+  2. Score area to reflect the progress of the game, as well as best score, to have an objective for the user to improve on.
+  3. Game area (Game Board) where 16 cards (8 pairs of shapes) will be randomly placed on the game area.
+  4. Footer with social/contact links and creators name.
 
-Another blue button should appear to click: _Open Browser_.
+## User Stories
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+* I am a person looking to test and train my memory in a simple and fun way by playing an online game.
+* I am a child looking to spend some time online and play a game ( I may be unaware that in the process of playing this game and having fun, the game may train my attention and memory ).
+* I am a teacher looking to find material for my students to train their memory skills and have fun in the process.
+* I am an elderly person looking to exercise my memory.
+* I am an educator looking to find out what nowadays technologies could offer for the eduction.
+* I am a person looking to have fun by playing a game during my free time.
 
-To log into the Heroku toolbelt CLI:
+### User Goals
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+#### First Time Visitor
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+* I'd like to play a simple game.
+* I'd like to be able to read instructions on how to play the game.
+* I'd like to be able to track my progress with a scoring system.
+* I'd like to challenge myself by tracking and trying to beat the best score and increase the interest in games replayability.
+* I'd like to play the game which has a pleasant to the eye appearance.
+* I'd like to know who created the game and be able to contact that person or see his social links for other projects.
 
-## Updates Since The Instructional Video
+#### Retrurning Visitor
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+* I'd like to play the game again.
+* I'd like to continue training my memory skills.
+* I'd like to improve my game skills and beat the best score.
+* I'd like to contact the game creator.
+* I'd like to check other projects of the creator.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Structure
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Mobile
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+* Simplistic appearance.
+* 3 interactive buttons centred in the header: "Change game shapes", "Restart the game", "Information (Game rules)".
+* Score area with current turns taken and best score centred under the header.
+* Game area taking the full width of the screen, with 2 game cards in a row, 8 rows in total.
+* Footer with Social links centred.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Tablet
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+* Simplistic appearance.
+* Header taking the full width of the screen, "Shapes" Logo on the left side of the header and 3 interactive buttons on the right side: "Change game shapes", "Restart the game", "Information (Game rules)".
+* Score area taking the full width of the screen with current turns taken and best score centred under the header.
+* Game area taking the full width of the screen, with 4 game cards in a row, 4 rows in total. 
+* Footer taking the full width of the window with social links on the left side, creators name on the right side.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Desktop
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+* Simplistic appearance.
+* Header taking 60% of windows width. "Shapes" Logo on the left side of the header and 3 interactive buttons on the right side: "Change game shapes", "Restart the game", "Information (Game rules)".
+* Score area taking 60% of windows width with current turns taken and best score centred under the header.
+* Game area taking 60% of the window, with 4 game cards in a row, 4 rows in total. 
+* Footer taking 60% of the window with social links on the left side, creators name on the right side.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Features
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
----
-
-Happy coding!
