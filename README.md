@@ -11,9 +11,9 @@ A simple memory game of shapes, a fun project created for Code Institutes Intera
 - [Scope](#scope)
 - [User Stories](#user-stories)
 - [Structure](#structure)
- - [Mobile](#mobile)
- - [Tablet](#tablet)
- - [Desktop](#desktop)
+  - [Mobile](#mobile)
+  - [Tablet](#tablet)
+  - [Desktop](#desktop)
 - [Features](#features)
 - [Design](#design)
 - [Wireframes](#wireframes)
@@ -35,10 +35,10 @@ A simple memory game of shapes, a fun project created for Code Institutes Intera
 Simple, distraction-free layout for a visual game of shapes, with few light pastel colours, to keep game experience light, distraction-free and not heavy on the eyes. 
 This is the game of shapes, it will mainly consist of symbols("Shapes")- user will play with shapes and symbols will be guiding the user through the game and page navigation, very little written words, with an exception for logo and game instructions, as well as pop up message at the end of the game to congratulate user for matching all shapes. 
 * Game will consist of one page and will include:
-  1. Header with game logo and navigation buttons.
-  2. Score area to reflect the progress of the game, as well as best score, to have an objective for the user to improve on.
-  3. Game area (Game Board) where 16 cards (8 pairs of shapes) will be randomly placed on the game area.
-  4. Footer with social/contact links and creators name.
+ 1. Header with game logo and navigation buttons.
+ 2. Score area to reflect the progress of the game, as well as best score, to have an objective for the user to improve on.
+ 3. Game area (Game Board) where 16 cards (8 pairs of shapes) will be randomly placed on the game area.
+ 4. Footer with social/contact links and creators name.
 
 ## User Stories
 
