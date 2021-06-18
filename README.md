@@ -145,38 +145,59 @@ The design idea for the game is to have lightness and simplicity on the eyes and
 <p style="background-color:#6289a2; color:black">Logo, game buttons and text font colour: #6289a2</p>
 <p style="background-color:#ffd261; color:black">Game cards colour: #ffd261</p>
 
-The choice of colours was driven by idea to create light and gentle atmosphere to relax while playing, also for user to be able to spend longer time looking and the page and not be overwhelmed by variaty or intensity of the colours. As the page is very simple in it's design, there shouldn't be too many colours or distractions. For this reason 3 pasttel colours where chosen.
+The choice of colours was driven by the idea to create a light and gentle atmosphere to relax while playing, also for the user to be able to spend a prolonged time looking and the page and not be overwhelmed by the variety or intensity of the colours. As the page is very simple in its design, there shouldn't be too many colours or distractions. For this reason, three pastel colours were chosen.
 
-* Background - very gentle blue colour with a tiny hint of green, it is very relaxing colour, pleasant to the viewers eye and doesn't strain eyes, nor mind.
-* Text colour and buttons background - also a gentle deeper blue mixed with grey colour, it brings a nice contrast with light blue body colour and makes letters readable, same time slightly blending in. Having that pasttele feel and enough contrast to stand out.
-* Game Cards - as this is the game, something has to standout- the playing cards are most important part of the game. They are hilighted with muddy yellow, which takes attention to the center of the screen, but stays pastelle and light for the users eyes.
+* Background - very gentle blue colour with a tiny hint of green, it is a very relaxing colour, pleasant to the viewer's eye and doesn't strain eyes, nor mind.
+* Text colour and buttons background - also a gentle deeper blue mixed with grey colour, it brings a nice contrast with light blue body colour and makes letters readable, same time slightly blending in. Having that pastel feel and enough contrast to stand out.
+* Game Cards - as this is the game, something has to stand out - the playing cards are the most important part of the game. They are highlighted with muddy yellow, which takes attention to the centre of the screen, but stays pastel and light for the user's eyes.
 
 ### Typography
 
-Criteria for the fonts was:
+Criteria for the fonts were:
 * Easy to read. 
-* Roundy letters, without sharp edges (To compliment overal look of all the shappes, buttons and game cards on the page).
+* Roundy letters, without sharp edges (To complement the overall look of all the shapes, buttons and game cards on the page).
 * Have a hint of playfulness. 
-As user will encounter such a small amount of written words on the page, only one font was enough, also keeping one font allows to connect all page elements in seemingless way.
+As the user will encounter such a small amount of written words on the page, only one font was enough, also keeping one font allows seemingly connecting all page elements.
 
-Out of all available fonts on Google Fonts site, I found most suitable font for this project - "Nunito" Designed by Vernon Adams, Cyreal. 
+Out of all available fonts on the Google Fonts site, I found the most suitable font for this project - "Nunito" Designed by Vernon Adams, Cyreal. 
 
 ## Wireframes
 
 ### Mobile 
-![mobile](assets/wireframes/shapesMobileGame.png)
+<img src="assets/wireframes/shapesMobileGame.png" width=250>
 
 ### Mobile Pop-Up Message
-![mobilePop-Up](assets/wireframes/shapesMobilePopUp.png)
+<img src="assets/wireframes/shapesMobilePopUp.png" width=250>
 
 ### Tablet
-![tablet](assets/wireframes/shapesTabletGame.png)
+<img src="assets/wireframes/shapesTabletGame.png" width=300>
 
 ### Tablet Pop-Up Message
-![TabletPop-Up](assets/wireframes/shapesTabletPopUp.png)
+<img src="assets/wireframes/shapesTabletPopUp.png" width=300>
 
 ### Desktop
-![Desktop](assets/wireframes/shapesDesktopGame.png)
+<img src="assets/wireframes/shapesDesktopGame.png" width=500>
 
 ### Desktop Pop-Up Message
-![Desktop](assets/wireframes/shapesDesktopPopUp.png)
+<img src="assets/wireframes/shapesDesktopPopUp.png" width=500>
+
+
+*You can access Wireframes .pdf file [here](assets/wireframes/ShapesWireframes.pdf)* 
+
+## Technologies Used
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/CSS) 
+- [GitHub](https://github.com) 
+- [GitPod](https://www.gitpod.io)
+- Balsamiq - for wireframes creation.
+- [Google Fonts](https://fonts.google.com)
+- [favicon.io](https://favicon.io/) - Favicon generator to create favicon and make it compatible with different browsers.
+- [Autoprefixer](https://autoprefixer.github.io/) - parses CSS and adds vendor prefixes to CSS rules.
+- [Sweetalert2](https://sweetalert2.github.io/) - Responsive, Customizable JavaScript's Popup Boxes. Used for creating game popups.
+
+## Deployment
+
+This project was developed with GitPod platform and has been deployed on GitHub following these steps:
+
+1. 
