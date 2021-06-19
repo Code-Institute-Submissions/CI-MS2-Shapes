@@ -190,7 +190,7 @@ Out of all available fonts on the Google Fonts site, I found the most suitable f
 - [CSS3](https://en.wikipedia.org/wiki/CSS) 
 - [GitHub](https://github.com) 
 - [GitPod](https://www.gitpod.io)
-- Balsamiq - for wireframes creation.
+- [Balsamiq](https://balsamiq.com/) - for wireframes creation.
 - [Google Fonts](https://fonts.google.com)
 - [favicon.io](https://favicon.io/) - Favicon generator to create favicon and make it compatible with different browsers.
 - [Autoprefixer](https://autoprefixer.github.io/) - parses CSS and adds vendor prefixes to CSS rules.
