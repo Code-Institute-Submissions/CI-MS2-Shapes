@@ -148,3 +148,11 @@ body {
 	
 }
 
+#social-links ul {
+	display: inline-flex;
+	font-size: 150%;
+	list-style-type: none;
+	margin: auto;
+	padding: 0;
+}
+
