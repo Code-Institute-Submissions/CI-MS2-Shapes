@@ -87,3 +87,16 @@ body {
 	margin: auto;
 }
 
+/* Game Board */
+
+#game-area {
+	width: 60vw;
+	height: 90vh;
+	display: flex;
+	flex-wrap: wrap;
+	color: #6289a2;
+	margin: 0 auto;
+	align-items: center;
+	justify-content: space-around;
+}
+
