@@ -73,3 +73,17 @@ body {
 	-moz-box-shadow: 3px 5px 25px -7px rgba(0,0,0,0.75);
 }
 
+/* Score area */
+
+#score-area {
+	display: flex;
+	font-size: 1.5em;	
+	width: 80%;
+	background-color: #d9fbf4;
+	color: #6289a2;
+	height: 10%;
+	justify-content: center;
+	align-self: center;
+	margin: auto;
+}
+
