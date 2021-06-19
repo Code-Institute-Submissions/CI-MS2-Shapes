@@ -100,6 +100,8 @@ body {
 	justify-content: space-around;
 }
 
+/* Game cards */
+
 .back i {
 	display: none;
 
@@ -129,5 +131,20 @@ body {
 
 .card-frame i {
 	vertical-align: middle;
+}
+
+/* footer */
+
+#footer {
+	display: flex;
+	flex-flow: row wrap;
+	height: 10vh;
+	width: 60vw;
+	background-color: #d9fbf4;
+	border: solid 1px;
+	margin: auto;
+	align-items: center;
+	justify-content: space-between;
+	
 }
 
