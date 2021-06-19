@@ -78,7 +78,7 @@ body {
 #score-area {
 	display: flex;
 	font-size: 1.5em;	
-	width: 80%;
+	width: 60%;
 	background-color: #d9fbf4;
 	color: #6289a2;
 	height: 10%;
@@ -87,11 +87,15 @@ body {
 	margin: auto;
 }
 
+#score-area p {
+	margin-bottom: 1px;
+}
+
 /* Game Board */
 
 #game-area {
 	width: 60vw;
-	height: 90vh;
+	height: 95vh;
 	display: flex;
 	flex-wrap: wrap;
 	color: #6289a2;
@@ -141,7 +145,6 @@ body {
 	height: 10vh;
 	width: 60vw;
 	background-color: #d9fbf4;
-	border: solid 1px;
 	margin: auto;
 	align-items: center;
 	justify-content: space-between;
