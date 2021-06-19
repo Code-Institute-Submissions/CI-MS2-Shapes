@@ -13,24 +13,27 @@
 	</head>
    
     <body>
+
         <!-- Headrer -->
         <header id="header-bar">
             <div><h1 id="logo">Shapes</h1></div>
             <div>
                 <ul id="header-list">
-                    <li class="header-buttons"></li>
-                    <li class="header-buttons"></li>
-                    <li class="header-buttons"></li>
+                    <li class="header-buttons" id="game-switcher"><i class="fas fa-frog"></i></li>
+                    <li class="header-buttons" id="restart"><i class="fas fa-redo"></i></li>
+                    <li class="header-buttons" id="info"><i class="fas fa-info-circle"></i></li>
                 </ul>
             </div>
-
         </header>
+
         <!-- Score area -->
         <div id="score-area">
             <p>Turns: <span id='each-turn-score'>0</span> Best: <span id='best-score'>0</span></p>
         </div>
+
         <!-- game board -->
         <div id= game-area></div>
+        
         <!-- footer -->
         <footer id="footer">
             <div id="social-links">
