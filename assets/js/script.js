@@ -278,3 +278,19 @@ function turnCard() {
 	console.log(selectedCards);
 
 }
+
+function gameSwitch () {
+	if (gameSwitchBtn.innerHTML === '<i class="fas fa-frog" aria-hidden="true"></i>') {
+		gameSwitchBtn.innerHTML = '<i class="fas fa-compass"></i>';
+		shapesArray = adventure;
+		restartGame();
+	} else if (gameSwitchBtn.innerHTML === '<i class="fas fa-compass" aria-hidden="true"></i>') {
+		gameSwitchBtn.innerHTML = '<i class="fas fa-apple-alt"></i>';
+		shapesArray = food;
+		restartGame();
+	} else {
+		gameSwitchBtn.innerHTML= '<i class="fas fa-frog"></i>';
+		shapesArray = animals;
+		restartGame();
+	}
+}
