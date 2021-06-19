@@ -215,6 +215,8 @@ let bestScore = parseInt(document.getElementById('best-score').innerText);
 let restartBtn = document.getElementById('restart');
 let gameSwitchBtn = document.getElementById('game-switcher');
 let info = document.getElementById('info');
+gameSwitchBtn.addEventListener('click', gameSwitch);
+restartBtn.addEventListener('click', restartGame);
 let selectedCards = [];
 let cardsGuessed = [];
 
@@ -293,4 +295,21 @@ function gameSwitch () {
 		shapesArray = animals;
 		restartGame();
 	}
+}
+
+function restartGame () {
+	
+	gameBoard.innerHTML = "";
+
+	selectedCards = [];
+	cardsGuessed = [];
+
+	if (eachTurnScore < topScore && eachTurnScore >= 16 ) {
+		document.getElementById('best-score').textContent = eachTurnScore;
+		topScore = eachTurnScore;	 
+	}
+	
+	eachTurnScore = "";
+	document.getElementById('each-turn-score').innerText = 0;
+	createGame();
 }
