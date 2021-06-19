@@ -55,3 +55,21 @@ body {
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
 }
+
+#logo {
+	height: 100%;
+	display: inline-block;
+	color: white;
+	background-color: #6289a2;
+	padding: 8px;
+	border:  solid 2px;
+	border-radius: 25px;
+	align-self: flex-start;
+	margin: 0 auto ;
+	cursor: default;
+
+	box-shadow: 3px 5px 25px -7px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 3px 5px 25px -7px rgba(0,0,0,0.75);
+	-moz-box-shadow: 3px 5px 25px -7px rgba(0,0,0,0.75);
+}
+
