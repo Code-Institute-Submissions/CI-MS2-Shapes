@@ -216,3 +216,18 @@ let restartBtn = document.getElementById('restart');
 let gameSwitchBtn = document.getElementById('game-switcher');
 let info = document.getElementById('info');
 
+
+function createGame() {
+	shapesArray.sort(function() { return 0.5 - Math.random() });
+	for ( let i = 0; i < shapesArray.length; i++ ) {
+		let card = document.createElement('div');
+		card.classList.add('card-frame');
+		card.classList.add('back');
+		card.setAttribute('id', i);
+		// card.classList.add('front');
+		card.innerHTML = shapesArray[i].icon;
+		card.addEventListener('click', turnCard);
+		gameBoard.appendChild(card);
+
+	}
+}
