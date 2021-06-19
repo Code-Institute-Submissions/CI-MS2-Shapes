@@ -57,7 +57,7 @@ This is the game of shapes, it will mainly consist of symbols("Shapes")- user wi
 * I'd like to be able to read instructions on how to play the game.
 * I'd like to be able to track my progress with a scoring system.
 * I'd like to challenge myself by tracking and trying to beat the best score and increase the interest in games replayability.
-* I'd like to play the game which has a pleasant to the eye appearance.
+* I'd like to play the game which has a pleasant appearance to the eye.
 * I'd like to know who created the game and be able to contact that person or see his social links for other projects.
 
 #### Retrurning Visitor
@@ -76,7 +76,7 @@ This is the game of shapes, it will mainly consist of symbols("Shapes")- user wi
 * 3 interactive buttons centred in the header: "Change game shapes", "Restart the game", "Information (Game rules)".
 * Score area with current turns taken and best score centred under the header.
 * Game area taking the full width of the screen, with 4 game cards in a row, 4 rows in total.
-* Cards will be smaller compoared to desktop or tablet screens.
+* Cards will be smaller compared to the desktop or the tablet screens.
 * Footer with Social links centred.
 
 ### Tablet
@@ -99,14 +99,14 @@ This is the game of shapes, it will mainly consist of symbols("Shapes")- user wi
 
 ### Implemented
 
-The main purpose of the webpage is the game, for this reason, it will have only Logo and game control buttons in the header.
-The logo will be just a name "Shapes", it has to be as simple as possible and just a short name describes the purpose and idea of the game, as you will be playing with shapes. This will be located on the left side of the header. Game control buttons: 
-* "Change Shapes" - button which will toggle between 3 types of shapes, giving the game bit of variety for replayability.
+The main purpose of the webpage is the game and for this reason, it will have only logo and game control buttons in the header.
+The logo will be just a name: "Shapes". It has to be as simple as possible and just a short name describes the purpose and the idea of the game, as you will be playing with shapes. This will be located on the left side of the header. Game control buttons: 
+* "Change Shapes" - button which will toggle between 3 types of shapes, giving the game a bit of variety for replayability.
 * "Restart Game" - button to restart the game, if the user made a mistake or exceeded turns for achieving best score, restarting the game will keep the best score, opposed to reloading the page, which will clear game stats. 
 * "Information"- game rules and minimal descriptions of game buttons". 
-Buttons will be on the right-hand side of the header. Once the page is loaded user will be greeted with a welcome message and message to explain the game objective, the button at the button saying "Let's go!", setting the mood for having fun and taking the challenge. 
+Buttons will be on the right-hand side of the header. Once the page is loaded user will be greeted with a welcome message and game objectives explanaition, the button at the bottom saying "Let's go!", setting the mood for having fun and taking the challenge. 
 
-Under the header there will be a score bar (area), located at the top of the game area, for it to be easy and intuitive to track or look up at your present score and if the user is up for a challenge- best score next to it( named "Best", to keep it simple without distracting with long words) to track the progress.
+Score bar will be located at the top of the game area, for it to be easy and intuitive to track or look up at your present score. If the user is up for a challenge, there is a section for "Best" score to track the progress.
 
 The game area will be clean, without borders or anything distractive around, so the user can concentrate all his attention on the game.
 Game cards will be positioned with 4 cards per row and 4 cards per column. 
@@ -117,9 +117,9 @@ Footer will inherit the simplicity of the header and game area, will have 3 soci
 ### Enchansments For Fututre
 
 * Possibility of changing colour themes, as well as black and white theme, which would work very well with these shapes.
-* If there will be any requests or interest from users, there would be a possibility to add a timer for an extra layer of challenge, but at the moment it was not implemented, as the game idea was to train memory and same time relax, rather than rushing through it.
+* If there will be any requests or interest from users, there would be a possibility to add a timer for an extra layer of challenge, but at the moment it was not implemented, as the game idea was to train memory and at the same time to relax, rather than rushing through it.
 * Add few more games with shapes, to have a place for the user to come back even more often.
-* Have a user base, for users to be able to track their progress and not lose it after leaving the page.
+* Have a user base, for users to be able to track their progress and not losing it after leaving the page.
 
 ## Design
 
