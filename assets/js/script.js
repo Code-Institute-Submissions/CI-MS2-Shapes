@@ -226,7 +226,6 @@ function createGame() {
 		card.classList.add('card-frame');
 		card.classList.add('back');
 		card.setAttribute('id', i);
-		// card.classList.add('front');
 		card.innerHTML = shapesArray[i].icon;
 		card.addEventListener('click', turnCard);
 		gameBoard.appendChild(card);
@@ -251,11 +250,31 @@ function checkCards() {
 	} 
 
 	if (cardsGuessed.length === shapesArray.length) {
-		swal.fire(`<i class="fas fa-frog"></i> + Congratulations! You got them all!`);
+		swal.fire(`Congratulations! You got them all!`);
 
 		restartGame();
 
 	}
 
 	selectedCards = [];
+}
+
+function turnCard() {
+
+	this.classList.remove('back');
+	var cardNumber = this.id;
+	selectedCards.push(cardNumber);
+	
+	if (selectedCards[0] === selectedCards[1]) {
+		selectedCards.pop();
+	};
+
+	if (selectedCards.length === 2) {
+		setTimeout(checkCards, 300)
+	};
+
+	document.getElementById('each-turn-score').innerText = ++eachTurnScore;
+
+	console.log(selectedCards);
+
 }
