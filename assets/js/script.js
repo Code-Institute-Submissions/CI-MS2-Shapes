@@ -220,6 +220,15 @@ restartBtn.addEventListener('click', restartGame);
 let selectedCards = [];
 let cardsGuessed = [];
 
+info.addEventListener("click", () => {
+	swal.fire({
+	html: '<p><strong>Objective</strong> - Match 2 cards, find all 8 pairs</p><p><i class="fas fa-frog"></i> - change game shapes to  <i class="fas fa-compass"> </i> <i class="fas fa-apple-alt"></i></p><p><i class="fas fa-redo"></i> - restart the game</p>',
+	icon: 'info',
+	confirmButtonColor: 'orange',
+	confirmButtonText: 'lets do this!'
+});;
+});
+
 
 function createGame() {
 	shapesArray.sort(function() { return 0.5 - Math.random() });
