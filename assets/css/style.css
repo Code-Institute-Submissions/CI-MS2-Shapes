@@ -172,7 +172,6 @@ body {
 
 .social-buttons:hover {
 	text-decoration: none;
-	border: solid 1px;
 	border-radius: 50px;
 	padding: 3px 7px;
 	color: #6289a2;
@@ -184,3 +183,8 @@ body {
 	-moz-box-shadow: none;
 }
 
+#my-name {
+	color: #6289a2;
+    display: inline-flex;
+	padding: 7px;
+}
