@@ -46,7 +46,7 @@ body {
 	border: solid 2px;
 	border-radius: 50px;
 	background-color: white;
-	padding: 10px 14px;
+	padding: 10px 15px;
 	color: #6289a2;
 	margin: 5px;
 	cursor: pointer;
@@ -98,5 +98,36 @@ body {
 	margin: 0 auto;
 	align-items: center;
 	justify-content: space-around;
+}
+
+.back i {
+	display: none;
+
+}
+
+.back {
+	border: solid 2px white;
+	border-radius: 15px;
+	background-color: #ffd261;
+	cursor: grab;
+	box-shadow: 3px 12px 20px 0px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 3px 12px 20px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 3px 12px 20px 0px rgba(0,0,0,0.75);
+}
+
+.card-frame {
+	display: flex;
+	font-size: 50px;
+	height: 21%;
+	width: 21%;
+
+	margin: 3px;
+	flex-grow: 21%;
+	align-items: center;
+	justify-content: center;
+}
+
+.card-frame i {
+	vertical-align: middle;
 }
 
