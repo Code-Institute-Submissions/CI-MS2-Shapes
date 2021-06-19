@@ -209,7 +209,6 @@ body {
 			margin: 5px;	
 	}
 	
-	
 	#score-area {
 		width: 100%;
 	}
@@ -229,3 +228,37 @@ body {
 	}
 	
 	}
+
+	@media all and (max-width: 768px) {
+		#header-bar {
+			width: 100%;
+		}
+		
+		#header-list {
+			font-size: 150%;
+		}
+		
+		#logo {
+				font-size:  150%;
+				margin: 5px;	
+		}
+		
+		#score-area {
+			width: 100%;
+		}
+		#game-area {
+			width: 100vw;
+			height: 80vh;
+		}
+		
+		#footer {
+			width: 100vw;
+			height: 10vh;
+			flex-direction: column;
+		}
+		
+		#social-links ul {
+			font-size: 100%;
+		}
+		
+		}
