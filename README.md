@@ -198,6 +198,23 @@ Out of all available fonts on the Google Fonts site, I found the most suitable f
 
 ## Deployment
 
-This project was developed with GitPod platform and has been deployed on GitHub following these steps:
+This project was developed with the GitPod platform and has been deployed on GitHub following these steps:
 
-1. 
+1. Go to [GitHub](https://github.com/).
+2. Log in to my [account](https://github.com/niekados).
+3. Find repository [CI-MS2-Shapes](https://github.com/niekados/CI-MS2-Shapes) and open it.
+4. Click on [settings](https://github.com/niekados/CI-MS2-Shapes/settings) tab.
+5. Select the "Pages" vertical tab on the left side of the screen.
+6. Under the "Source" section click the "branch" drop-down menu and select the "master" branch.
+7. Click the "Save" button.
+8. Page has been deployed! The link to deployed [page](https://niekados.github.io/CI-MS2-Shapes/) will appear above the "Source" section. 
+
+To run the project locally
+
+1. Go to [GitHub](https://github.com/).
+2. Log in to my [account](https://github.com/niekados).
+3. Find repository [CI-MS2-Shapes](https://github.com/niekados/CI-MS2-Shapes) and open it.
+4. Click the green "Code" button for the drop-down menu to appear.
+5. You can clone the repository by copying the HTTPS link to your desktop IDE.
+6. Alternatively you can download the ZIP file and extract it onto your computer.  
+ 

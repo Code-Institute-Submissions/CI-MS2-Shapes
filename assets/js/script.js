@@ -215,6 +215,8 @@ let bestScore = parseInt(document.getElementById('best-score').innerText);
 let restartBtn = document.getElementById('restart');
 let gameSwitchBtn = document.getElementById('game-switcher');
 let info = document.getElementById('info');
+let selectedCards = [];
+let cardsGuessed = [];
 
 
 function createGame() {
@@ -230,4 +232,30 @@ function createGame() {
 		gameBoard.appendChild(card);
 
 	}
+}
+
+function checkCards() {
+	let cards = document.getElementsByTagName('i');
+	let cardOne = shapesArray[selectedCards[0]];
+	let cardTwo = shapesArray[selectedCards[1]];
+	let cardOneElement = document.getElementById(selectedCards[0]);
+	let cardTwoElement = document.getElementById(selectedCards[1]);
+	if (cardOne.cardName === cardTwo.cardName) {
+		cardOneElement.removeEventListener('click', turnCard);
+		cardTwoElement.removeEventListener('click', turnCard);
+		cardsGuessed.push(selectedCards[0]);
+		cardsGuessed.push(selectedCards[1]);
+	} else { 
+		cardOneElement.classList.add('back');
+		cardTwoElement.classList.add('back');
+	} 
+
+	if (cardsGuessed.length === shapesArray.length) {
+		swal.fire(`<i class="fas fa-frog"></i> + Congratulations! You got them all!`);
+
+		restartGame();
+
+	}
+
+	selectedCards = [];
 }
