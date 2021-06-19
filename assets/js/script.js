@@ -206,3 +206,13 @@ let animals = [
         icon: '<i class="fas fa-ice-cream"></i>'
     },
     ]
+
+shapesArray = animals;
+let topScore = 10000000000000;
+let gameBoard = document.getElementById('game-area');
+let eachTurnScore = parseInt(document.getElementById('each-turn-score').innerText);
+let bestScore = parseInt(document.getElementById('best-score').innerText);
+let restartBtn = document.getElementById('restart');
+let gameSwitchBtn = document.getElementById('game-switcher');
+let info = document.getElementById('info');
+
