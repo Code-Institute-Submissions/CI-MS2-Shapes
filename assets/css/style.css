@@ -10,6 +10,8 @@ body {
 	font-family: 'Nunito', sans-serif;
 }
 
+/* header */
+
 #header-bar {
 	display: flex;
 	width: 60%;
@@ -25,4 +27,31 @@ body {
 	font-size: 200%;
 	list-style-type: none;
 	margin: auto 3px;
+}
+
+.header-buttons {
+	border: solid 2px;
+	border-radius: 50px;
+	background-color: #6289a2;
+	padding: 10px 14px;
+	color: white;
+	margin: 5px;
+
+    box-shadow: 3px 5px 25px -7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 3px 5px 25px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 5px 25px -7px rgba(0,0,0,0.75);
+}
+
+.header-buttons:hover {
+	border: solid 2px;
+	border-radius: 50px;
+	background-color: white;
+	padding: 10px 14px;
+	color: #6289a2;
+	margin: 5px;
+	cursor: pointer;
+
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
 }
