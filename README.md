@@ -218,3 +218,28 @@ To run the project locally
 5. You can clone the repository by copying the HTTPS link to your desktop IDE.
 6. Alternatively you can download the ZIP file and extract it onto your computer.  
  
+
+ ## Credits
+
+* Big thank you to Ania Kubow for her YouTube tutorial "Make MEMORY GAME in JavaScript, HTML and CSS for your portfolio" ([link](https://www.youtube.com/watch?v=tjyDOHzKN0w&t=81s)), which helped me a lot to understand the structure of the game and implement it in my project. Her YouTube channel [link](https://www.youtube.com/channel/UC5DNytAJ6_FISueUfzZCVsw).
+* [w3schools](https://www.w3schools.com) for all the code references.
+* [Sweetalert2](https://sweetalert2.github.io/) for providing such a helpful and simple popup tool.
+
+### A very special thank you
+
+I want to thank everyone who was a big part of the path towards finishing this project when the Milestone Project became not only a coding challenge but also a personal one. 
+
+* I want to say a special thank you to Alexander Farrell from Code Institute, for his patience, friendliness and understanding. He was the first person to hear me, he was the first person to support and encourage me when things were not going well. Just want to say, Alexanders help meant the world to me and changed it.  
+* My sister was always checking on me, on my progress, listening and believing in me.
+* Silvia, who was always there, even at moments when I was not.
+* Maria, who was greatest distraction and greatest inspiration.
+* Doctor Jolanta, for helping me to piece together and to go for success!  
+
+## Testing
+
+HTML Code has been tested for each individual page with [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/):
+![index.html](assets/testing/HTMLvalidation.jpg)
+
+### style.css
+
+![style.css](assets/testing/w3c-css.png)
