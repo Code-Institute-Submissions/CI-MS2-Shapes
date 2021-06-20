@@ -43,18 +43,7 @@ body {
     -moz-box-shadow: 3px 5px 25px -7px rgba(0,0,0,0.75);
 }
 
-.header-buttons:hover {
-	border: solid 2px;
-	border-radius: 50px;
-	background-color: white;
-	padding: 13px 15px;
-	color: #6289a2;
-	margin: 5px;
 
-    box-shadow: none;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-}
 
 #logo {
 	height: 100%;
@@ -174,19 +163,6 @@ body {
 	-moz-box-shadow: 3px 5px 25px -7px rgba(0,0,0,0.75);
 }
 
-.social-buttons:hover {
-	text-decoration: none;
-	border-radius: 50px;
-	padding: 3px 7px;
-	color: #6289a2;
-	background-color: white;
-	margin: 5px;
-
-	box-shadow: none;
-	-webkit-box-shadow: none;
-	-moz-box-shadow: none;
-}
-
 #my-name {
 	color: #6289a2;
     display: inline-flex;
@@ -197,36 +173,14 @@ body {
 /* --------- Media queries */
 
 @media all and (max-width: 600px) {
-	#header-bar {
-		width: 100%;
+	#my-name {
+		display: none;
 	}
-	
-	#header-list {
-		font-size: 150%;
-	}
-	
-	#logo {
-			font-size:  150%;
-			margin: 5px;	
-	}
-	
-	#score-area {
-		width: 100%;
-	}
-	#game-area {
-		width: 100vw;
-		height: 80vh;
-	}
-	
+
 	#footer {
-		width: 100%;
+		justify-content: center;
 	}
-	
-	#social-links ul {
-		font-size: 100%;
-	}
-	
-	}
+}
 
 @media all and (max-width: 768px) {
 	#header-bar {
@@ -234,7 +188,11 @@ body {
 	}
 	
 	#header-list {
-		font-size: 150%;
+		font-size: 100%;
+	}
+
+	.header-buttons {
+		font-size: 1.5em;
 	}
 	
 	#logo {
@@ -251,19 +209,43 @@ body {
 	}
 	
 	#footer {
-		width: 100vw;
-		justify-content: center;
+		width: 100%;
+		padding-top: 20px;
+		padding-bottom: 5px;
 	}
 	
 	#social-links ul {
 		font-size: 100%;
 	}
-	
-	#my-name {
-		color: #6289a2;
-		display: inline-flex;
-		padding: 7px;
-		
-	}
 
 	}
+
+/* Sticky buttons fix for phones and tablets, where button stays active after press. Removed hover effect for smaller screens. */
+
+@media all and (min-width: 992px) {
+	.social-buttons:hover {
+		text-decoration: none;
+		border-radius: 50px;
+		padding: 3px 7px;
+		color: #6289a2;
+		background-color: white;
+		margin: 5px;
+	
+		box-shadow: none;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+	}
+
+	.header-buttons:hover {
+		border: solid 2px;
+		border-radius: 50px;
+		background-color: white;
+		padding: 13px 15px;
+		color: #6289a2;
+		margin: 5px;
+	
+		box-shadow: none;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+	}
+}
