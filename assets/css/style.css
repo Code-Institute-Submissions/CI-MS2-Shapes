@@ -180,15 +180,20 @@ body {
 	#footer {
 		justify-content: center;
 	}
+
+	#game-area {
+		width: 100vw;
+		height: 80vh;
+	}
 }
 
 @media all and (max-width: 768px) {
 	#header-bar {
-		width: 100%;
+		width: 90%;
 	}
 	
 	#header-list {
-		font-size: 100%;
+		font-size: 90%;
 	}
 
 	.header-buttons {
@@ -201,21 +206,21 @@ body {
 	}
 	
 	#score-area {
-		width: 100%;
+		width: 90%;
 	}
 	#game-area {
-		width: 100vw;
-		height: 80vh;
+		width: 90vw;
+		height: 90vh;
 	}
 	
 	#footer {
-		width: 100%;
+		width: 90%;
 		padding-top: 20px;
 		padding-bottom: 5px;
 	}
 	
 	#social-links ul {
-		font-size: 100%;
+		font-size: 130%;
 	}
 
 	}
