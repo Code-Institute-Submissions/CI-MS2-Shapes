@@ -207,6 +207,7 @@ let animals = [
     },
     ]
 
+    // Game variables
 shapesArray = animals;
 let topScore = 10000000000000;
 let gameBoard = document.getElementById('game-area');
@@ -220,6 +221,7 @@ restartBtn.addEventListener('click', restartGame);
 let selectedCards = [];
 let cardsGuessed = [];
 
+// Welcome popup
 swal.fire({
 	title: 'Welcome to Shapes' ,
 	html: "<p>Your objective is to flip the cards and match the pairs. There is a total of 8 pairs.</p></br>Are you ready?",
@@ -228,6 +230,7 @@ swal.fire({
 	confirmButtonText: 'Lets go!'
 });
 
+//Information button popup
 info.addEventListener("click", () => {
 	swal.fire({
 	html: '<p>Objective - Match 2 cards, find all 8 pairs</p><p><i class="fas fa-frog"></i>  <i class="fas fa-compass"></i>  <i class="fas fa-apple-alt"></i> - toggle card shapes.</p><p><i class="fas fa-redo"></i> - restart the game</p>',
@@ -239,6 +242,8 @@ info.addEventListener("click", () => {
 });
 
 
+//Game structure and generate random number function taken and inspired by Ania Kubow
+//Creates game board
 function createGame() {
 	shapesArray.sort(function() { return 0.5 - Math.random() });
 	for ( let i = 0; i < shapesArray.length; i++ ) {
@@ -253,6 +258,7 @@ function createGame() {
 	}
 }
 
+//checks cards: first vs second
 function checkCards() {
 	let cards = document.getElementsByTagName('i');
 	let cardOne = shapesArray[selectedCards[0]];
@@ -286,6 +292,8 @@ function checkCards() {
 	selectedCards = [];
 }
 
+// Flips cards
+
 function turnCard() {
 
 	this.classList.remove('back');
@@ -306,6 +314,7 @@ function turnCard() {
 
 }
 
+//game switch button, toggles game card shapes
 function gameSwitch () {
 	if (gameSwitchBtn.innerHTML === '<i class="fas fa-frog" aria-hidden="true"></i>') {
 		gameSwitchBtn.innerHTML = '<i class="fas fa-compass"></i>';
@@ -321,6 +330,8 @@ function gameSwitch () {
 		restartGame();
 	}
 }
+
+//restart game
 
 function restartGame () {
 	
