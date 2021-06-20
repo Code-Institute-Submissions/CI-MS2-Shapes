@@ -223,16 +223,18 @@ let cardsGuessed = [];
 swal.fire({
 	title: 'Welcome to Shapes' ,
 	html: "<p>Your objective is to flip the cards and match the pairs. There is a total of 8 pairs.</p></br>Are you ready?",
-	confirmButtonColor: 'orange',
-	confirmButtonText: 'lets go!'
+    showCloseButton: true,
+	confirmButtonColor: '#6289a2',
+	confirmButtonText: 'Lets go!'
 });
 
 info.addEventListener("click", () => {
 	swal.fire({
-	html: '<p>Objective - Match 2 cards, find all 8 pairs</p><p><i class="fas fa-frog"></i> - change game shapes to  <i class="fas fa-compass"> </i> <i class="fas fa-apple-alt"></i></p><p><i class="fas fa-redo"></i> - restart the game</p>',
+	html: '<p>Objective - Match 2 cards, find all 8 pairs</p><p><i class="fas fa-frog"></i>  <i class="fas fa-compass"></i>  <i class="fas fa-apple-alt"></i> - toggle card shapes.</p><p><i class="fas fa-redo"></i> - restart the game</p>',
 	icon: 'info',
-	confirmButtonColor: 'orange',
-	confirmButtonText: 'lets do this!'
+    showCloseButton: true,
+	confirmButtonColor: '#6289a2',
+	confirmButtonText: 'Lets do this!'
 });;
 });
 
@@ -267,8 +269,15 @@ function checkCards() {
 		cardTwoElement.classList.add('back');
 	} 
 
-	if (cardsGuessed.length === shapesArray.length) {
-		swal.fire(`Congratulations! You got them all!`);
+	if (cardsGuessed.length === shapesArray.length) { 
+		swal.fire({
+            text: 'Congratulations! You got them all!',
+            showCloseButton: true,
+            confirmButtonColor: '#6289a2',
+            confirmButtonText:
+            '<i class="fa fa-thumbs-up"></i> Well done!',
+          confirmButtonAriaLabel: 'Thumbs up, well done!',
+        });
 
 		restartGame();
 
