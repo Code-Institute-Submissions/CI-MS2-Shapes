@@ -237,9 +237,53 @@ I want to thank everyone who was a big part of the path towards finishing this p
 
 ## Testing
 
+### HTML & CSS
+
 HTML Code has been tested for each individual page with [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/):
 ![index.html](assets/testing/HTMLvalidation.jpg)
 
-### style.css
+![style.css](assets/testing/CSSvalidation.jpg)
 
-![style.css](assets/testing/w3c-css.png)
+### JavaScript
+
+JavaScript syntax has been tested with [Esprima](https://esprima.org/demo/validate.html)
+
+![script.js](assets/testing/JSvalidation.jpg)
+
+### Lighthouse
+
+Mobile
+![mobile](assets/testing/LighthouseMobile.jpg)
+
+Desktop
+![desktop](assets/testing/LighthouseDesktop.jpg)
+
+### User stories testing
+
+#### First Time Visitor
+
+* I'd like to play a simple game.
+  * Game has minimal layout.
+* I'd like to be able to read instructions on how to play the game.
+  * Instructions available on loading the page, as well as "i" button with instructions popup.
+* I'd like to be able to track my progress with a scoring system.
+  * Scores bar is located at the top of game board.
+* I'd like to challenge myself by tracking and trying to beat the best score and increase the interest in games replayability.
+  * Best score is located at the top of game board.
+* I'd like to play the game which has a pleasant appearance to the eye.
+  * Game consist of smooth & rounded shapes, with pastel colour theme.
+* I'd like to know who created the game and be able to contact that person or see his social links for other projects.
+  * Social links available at the footer.
+
+#### Retrurning Visitor
+
+* I'd like to play the game again.
+  * Restart button in the header.
+* I'd like to improve my game skills and beat the best score.
+  * Best score is located at the top of game board.
+* I'd like to contact the game creator.
+  * Social links and email address available at the footer.
+* I'd like to check other projects of the creator.
+  * GitHub link available in the footer.
+
+
