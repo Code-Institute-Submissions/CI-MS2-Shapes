@@ -220,9 +220,16 @@ restartBtn.addEventListener('click', restartGame);
 let selectedCards = [];
 let cardsGuessed = [];
 
+swal.fire({
+	title: 'Welcome to Shapes' ,
+	html: "<p>Your objective is to flip the cards and match the pairs. There is a total of 8 pairs.</p></br>Are you ready?",
+	confirmButtonColor: 'orange',
+	confirmButtonText: 'lets go!'
+});
+
 info.addEventListener("click", () => {
 	swal.fire({
-	html: '<p><strong>Objective</strong> - Match 2 cards, find all 8 pairs</p><p><i class="fas fa-frog"></i> - change game shapes to  <i class="fas fa-compass"> </i> <i class="fas fa-apple-alt"></i></p><p><i class="fas fa-redo"></i> - restart the game</p>',
+	html: '<p>Objective - Match 2 cards, find all 8 pairs</p><p><i class="fas fa-frog"></i> - change game shapes to  <i class="fas fa-compass"> </i> <i class="fas fa-apple-alt"></i></p><p><i class="fas fa-redo"></i> - restart the game</p>',
 	icon: 'info',
 	confirmButtonColor: 'orange',
 	confirmButtonText: 'lets do this!'

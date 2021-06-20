@@ -24,18 +24,19 @@ body {
 
 #header-list {
 	display: inline-flex;
-	font-size: 200%;
 	list-style-type: none;
 	margin: auto 3px;
 }
 
 .header-buttons {
+	font-size: 2em;
 	border: solid 2px;
 	border-radius: 50px;
 	background-color: #6289a2;
-	padding: 10px 14px;
+	padding: 13px 15px;
 	color: white;
 	margin: 5px;
+	cursor: pointer;
 
     box-shadow: 3px 5px 25px -7px rgba(0,0,0,0.75);
     -webkit-box-shadow: 3px 5px 25px -7px rgba(0,0,0,0.75);
@@ -46,10 +47,9 @@ body {
 	border: solid 2px;
 	border-radius: 50px;
 	background-color: white;
-	padding: 10px 15px;
+	padding: 13px 15px;
 	color: #6289a2;
 	margin: 5px;
-	cursor: pointer;
 
     box-shadow: none;
     -webkit-box-shadow: none;
@@ -58,6 +58,8 @@ body {
 
 #logo {
 	height: 100%;
+	font-size: 200%;
+	text-decoration: none;
 	display: inline-block;
 	color: white;
 	background-color: #6289a2;
@@ -66,7 +68,6 @@ body {
 	border-radius: 25px;
 	align-self: flex-start;
 	margin: 0 auto ;
-	cursor: default;
 
 	box-shadow: 3px 5px 25px -7px rgba(0,0,0,0.75);
 	-webkit-box-shadow: 3px 5px 25px -7px rgba(0,0,0,0.75);
@@ -218,9 +219,7 @@ body {
 	}
 	
 	#footer {
-		width: 100vw;
-		height: 10vh;
-		flex-direction: column;
+		width: 100%;
 	}
 	
 	#social-links ul {
@@ -229,36 +228,42 @@ body {
 	
 	}
 
-	@media all and (max-width: 768px) {
-		#header-bar {
-			width: 100%;
-		}
+@media all and (max-width: 768px) {
+	#header-bar {
+		width: 100%;
+	}
+	
+	#header-list {
+		font-size: 150%;
+	}
+	
+	#logo {
+			font-size:  150%;
+			margin: 5px;	
+	}
+	
+	#score-area {
+		width: 100%;
+	}
+	#game-area {
+		width: 100vw;
+		height: 80vh;
+	}
+	
+	#footer {
+		width: 100vw;
+		justify-content: center;
+	}
+	
+	#social-links ul {
+		font-size: 100%;
+	}
+	
+	#my-name {
+		color: #6289a2;
+		display: inline-flex;
+		padding: 7px;
 		
-		#header-list {
-			font-size: 150%;
-		}
-		
-		#logo {
-				font-size:  150%;
-				margin: 5px;	
-		}
-		
-		#score-area {
-			width: 100%;
-		}
-		#game-area {
-			width: 100vw;
-			height: 80vh;
-		}
-		
-		#footer {
-			width: 100vw;
-			height: 10vh;
-			flex-direction: column;
-		}
-		
-		#social-links ul {
-			font-size: 100%;
-		}
-		
-		}
+	}
+
+	}

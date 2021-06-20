@@ -76,7 +76,7 @@ This is the game of shapes, it will mainly consist of symbols("Shapes")- user wi
 * 3 interactive buttons centred in the header: "Change game shapes", "Restart the game", "Information (Game rules)".
 * Score area with current turns taken and best score centred under the header.
 * Game area taking the full width of the screen, with 4 game cards in a row, 4 rows in total.
-* Cards will be smaller compared to the desktop or the tablet screens.
+* Cards will be smaller compared to desktop or tablet screens.
 * Footer with Social links centred.
 
 ### Tablet
@@ -104,9 +104,9 @@ The logo will be just a name: "Shapes". It has to be as simple as possible and j
 * "Change Shapes" - button which will toggle between 3 types of shapes, giving the game a bit of variety for replayability.
 * "Restart Game" - button to restart the game, if the user made a mistake or exceeded turns for achieving best score, restarting the game will keep the best score, opposed to reloading the page, which will clear game stats. 
 * "Information"- game rules and minimal descriptions of game buttons". 
-Buttons will be on the right-hand side of the header. Once the page is loaded user will be greeted with a welcome message and game objectives explanaition, the button at the bottom saying "Let's go!", setting the mood for having fun and taking the challenge. 
+Buttons will be on the right-hand side of the header. Once the page is loaded user will be greeted with a welcome message and game objectives explanation, the button at the bottom saying "Let's go!", setting the mood for having fun and taking the challenge. 
 
-Score bar will be located at the top of the game area, for it to be easy and intuitive to track or look up at your present score. If the user is up for a challenge, there is a section for "Best" score to track the progress.
+The score bar will be located at the top of the game area, for it to be easy and intuitive to track or look up at your present score. If the user is up for a challenge, there is a section for "Best" score to track the progress.
 
 The game area will be clean, without borders or anything distractive around, so the user can concentrate all his attention on the game.
 Game cards will be positioned with 4 cards per row and 4 cards per column. 
@@ -127,7 +127,7 @@ The design idea for the game is to have lightness and simplicity on the eyes and
 
 * Logo - to be simple and tell the user the story and the purpose of this page at a glance, for this reason only the word "Shapes" will be used, as the user will be playing with shapes, as well as game controls (navigation) will also consist only of shapes. It Will have a rounded border and the same background as the game control buttons, to have a nice symmetric balance between both sides of the header. Due to the absolute minimal (aiming to eliminate most written words) page design, the logo will use the same fonts as the rest of the page to keep the connection and fluidity between the written elements of the game.
 
-* Buttons (game controls/navigation) - will share same rounded styling with same colours as logo, to have symmetric header balance with Logo. Each button will consist only of one symbol ("Shape"), will have a round shape. The first button will be the game board switch button, it will cycle between different shape collections and after each click, it will change the symbol to represent current collection selection, the button will cycle between Frog symbol (representing animals collection), Compass symbol(representing adventure collection) and apple symbol(representing Food collection). It will be followed by a restart button, which will be just a static spinning arrow symbol, representing refresh, recycle. And the last button will be the information button with game rules, "i" (information), which will call the pop up window with game information.
+* Buttons (game controls/navigation) - will share rounded styling with the same colours as logo and will have symmetric header balance. Each button will consist of only one symbol ("Shape"), it will have a round shape. The first button will be the game board switch one. It will cycle between different shape collections and after each click, it will change the symbol to represent the current collection selection. The button will cycle between the Frog symbol (representing animals collection), the Compass symbol(representing adventure collection) and the Apple symbol(representing Food collection). It will be followed by a restart button, which will be just a static spinning arrow symbol, representing refresh, recycle. And the last button will be the information button with game rules, "i" (information), which will call the pop-up window with game information.
 
 * Score area - very basic, without any borders or formatting, except inheriting colour from Logo and buttons background, to have a connection and nice migration between elements. As only one font style will be used across all the written words and numbers on the board, it will have the same font as Logo and Game Instructions.
 
@@ -148,7 +148,7 @@ The design idea for the game is to have lightness and simplicity on the eyes and
 The choice of colours was driven by the idea to create a light and gentle atmosphere to relax while playing, also for the user to be able to spend a prolonged time looking and the page and not be overwhelmed by the variety or intensity of the colours. As the page is very simple in its design, there shouldn't be too many colours or distractions. For this reason, three pastel colours were chosen.
 
 * Background - very gentle blue colour with a tiny hint of green, it is a very relaxing colour, pleasant to the viewer's eye and doesn't strain eyes, nor mind.
-* Text colour and buttons background - also a gentle deeper blue mixed with grey colour, it brings a nice contrast with light blue body colour and makes letters readable, same time slightly blending in. Having that pastel feel and enough contrast to stand out.
+* Text colour and buttons background - also a gentle deeper blue mixed with grey colour, it brings a nice contrast with light blue body colour and makes letters readable, at the same time slightly blending in. Having that pastel feel and enough contrast will make the text stand out.
 * Game Cards - as this is the game, something has to stand out - the playing cards are the most important part of the game. They are highlighted with muddy yellow, which takes attention to the centre of the screen, but stays pastel and light for the user's eyes.
 
 ### Typography
