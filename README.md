@@ -4,6 +4,8 @@
 
 A simple memory game of shapes, a fun project created for Code Institutes Interactive Frontend Development Milestone Project.
 
+![responsive](assets/testing/am-i-responsive.jpg)
+
 
 ## Index
 
@@ -232,7 +234,7 @@ I want to thank everyone who was a big part of the path towards finishing this p
 * I want to say a special thank you to Alexander Farrell from Code Institute, for his patience, friendliness and understanding. He was the first person to hear me, he was the first person to support and encourage me when things were not going well. Just want to say, Alexanders help meant the world to me and changed it.  
 * My sister was always checking on me, on my progress, listening and believing in me.
 * Silvia, who was always there, even at moments when I was not.
-* Maria, who was greatest distraction and greatest inspiration.
+* Maria, who was the greatest distraction and greatest inspiration.
 * Doctor Jolanta, for helping me to piece together and to go for success!  
 
 ## Testing
@@ -263,15 +265,15 @@ Desktop
 #### First Time Visitor
 
 * I'd like to play a simple game.
-  * Game has minimal layout.
+  * Game has a minimal layout.
 * I'd like to be able to read instructions on how to play the game.
   * Instructions available on loading the page, as well as "i" button with instructions popup.
 * I'd like to be able to track my progress with a scoring system.
-  * Scores bar is located at the top of game board.
+  * Scores bar is located at the top of the game board.
 * I'd like to challenge myself by tracking and trying to beat the best score and increase the interest in games replayability.
-  * Best score is located at the top of game board.
+  * Best score is located at the top of the game board.
 * I'd like to play the game which has a pleasant appearance to the eye.
-  * Game consist of smooth & rounded shapes, with pastel colour theme.
+  * Game consist of smooth & rounded shapes, with a pastel colour theme.
 * I'd like to know who created the game and be able to contact that person or see his social links for other projects.
   * Social links available at the footer.
 
@@ -280,10 +282,38 @@ Desktop
 * I'd like to play the game again.
   * Restart button in the header.
 * I'd like to improve my game skills and beat the best score.
-  * Best score is located at the top of game board.
+  * Best score is located at the top of the game board.
 * I'd like to contact the game creator.
   * Social links and email address available at the footer.
 * I'd like to check other projects of the creator.
   * GitHub link available in the footer.
 
+  ### Testing
 
+  Shapes page has been tested on MacBook Pro (Safari, Firefox, Chrome).
+  Iphone 12 & 7 (Safari, Chrome, Firefox)
+  Samsung A51 (Chrome)
+  Assus Transformer (Firefox)
+
+  Testing included:
+  1. Loading the page and having a welcome message displayed- no problem on all devices.
+  2. Pressing logo to reload the page- no problem on all devices.
+  3. Pressing the "change shapes" button to toggle shapes- no problem on a desktop, mobile has a sticky button, where button stays pressed until random area on screen has been pressed.
+  4. Pressing the "restart" button- no problem on a desktop, mobile has a sticky button, where button stays pressed until random area on screen has been pressed.
+  5. Pressing the 'i" button to generate instructions popup- no problem on a desktop, mobile has a sticky button, where button stays pressed until random area on screen has been pressed. 
+  6. Score bar- was tracking game score as well as retaining best score.
+  7. Interacting with game cards - selects two cards, after resets cards if no match found. If match found cards remain open- all devices performed without problem.
+  8. Footer Social Links - no problem on a desktop, mobile has a sticky button, where button stays pressed until random area on screen has been pressed.
+
+
+### Bugs
+
+1. Sticky button issue for mobile devices, where buttons remain pressed after interaction until random area on the screen is pressed due to CSS hover effect.
+  * Removed CSS hover effect for small and medium screens.
+2. Selecting the same first card multiple times on the game board counts as a turn on the score bar. 
+  * Bug remains due to project deadline. The solution is to remove the event listener on the first card and add it back once the second card pressed.
+
+
+Thank you for your patience and attention in reading the documentation.
+Warmest regards,
+Vilmantas Zaleckas 
