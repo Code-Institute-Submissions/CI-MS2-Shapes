@@ -152,9 +152,6 @@ body {
 	width: 21%;
 
 	margin: 3px;
-	-webkit-box-flex: 21%;
-	    -ms-flex-positive: 21%;
-	        flex-grow: 21%;
 	-webkit-box-align: center;
 	    -ms-flex-align: center;
 	        align-items: center;
